@@ -2,7 +2,9 @@
 Hi, I'm Ritvik Deshpande!
 
 ## Description
-_My Portfolio includes some info about me, lists my programming skills, projects and links to contact me. 
+My Portfolio includes some info about me, lists my programming skills, projects and links to contact me. 
+
+## Link to Portfolio
 
 ## Technologies Used
 - HTML5
