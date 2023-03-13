@@ -1,7 +1,7 @@
 # Portfolio
 Personal Portfolio
 
-**Stack**
+## Technologies
 - HTML
 - CSS
 - React 
