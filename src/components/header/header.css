@@ -73,7 +73,7 @@ header {
 /* ================= MEDIQ QUERIES (SMALL DEVICES) =======================*/
 @media screen and (max-width: 600px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 
     .header__socials,
