@@ -2,6 +2,8 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaUniversity} from 'react-icons/fa'
+import {MdWorkHistory} from 'react-icons/md'
+import {FaAward} from 'react-icons/fa'
 
 const about = () => {
     return (
@@ -19,31 +21,27 @@ const about = () => {
                     <div className="about__cards">
                         <article className="about__card">
                             <FaUniversity className="about__icon"/>
-                            <h5>University</h5>
-                            <small>McMaster University</small>
+                            <h5> McMaster University</h5>
+                            {/* <small>McMaster University</small> */}
                         </article>
 
                         <article className="about__card">
-                            <FaUniversity className="about__icon"/>
-                            <h5>University</h5>
-                            <small>McMaster University</small>
+                            <MdWorkHistory className="about__icon"/>
+                            <h5>3 co-op terms</h5>
+                            {/* <small>McMaster University</small> */}
                         </article>
 
                         <article className="about__card">
-                            <FaUniversity className="about__icon"/>
-                            <h5>University</h5>
-                            <small>McMaster University</small>
+                            <FaAward className="about__icon"/>
+                            <h5>3.7 GPA</h5>
+                            {/* <small>McMaster University</small> */}
                         </article>
                     </div>
 
-                    <p>
-                        Problem solving is what I do best! 
-                        Whether that be breaking down complex concepts to my tutoring
-                        students or using my knowledge of the Software Development Life Cycle 
-                        to efficiently create new personal coding projects. 
-                        As a third-year computer science student at McMaster University, 
-                        I’m actively looking for fall 2023 internships where I can put my
-                        problem-solving skils to good use.
+                    <p className='paragraph'>
+                        I'm a 3rd year Computer Science major attending McMaster University. Over the 
+                        last 3 years, I've worked as a software developer intern at 3 companies, gaining experience doing web development, DevOps, and working on 
+                        embedded systems. Let's connect to discuss opportunities to solve new and exciting software problems!
                     </p>
 
                     <a href="#contact" className="btn btn-primary">Let's Talk</a>

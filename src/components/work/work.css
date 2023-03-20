@@ -1,0 +1,96 @@
+/* .work__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+li {
+    margin-left: 10px;
+    list-style-type: disc;
+ }
+
+.work__container {
+    display: flex;
+}
+  
+.work__container .left,
+.work__container .right {
+    flex: 1 2 auto;
+}
+
+.right {
+    display: grid;
+    width: 75%;
+}
+
+.work__nav {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    width: 90%;
+    /* background: rgba(0,0,0,0.3); */
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    /* backdrop-filter: blur(15px); */
+}
+
+.work__nav a {
+    background: transparent;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    display: flex;
+    color: var(--color-light);
+    margin: 0.5rem 0 0 0;
+}
+
+/* .work__blocks {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 2.5rem;
+} */
+
+.work__item {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transistion);
+    /* display: inline-block; */
+}
+
+.work__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.work__item ul {
+    margin-top: 1rem;
+    color: var(--color-light);
+}
+
+.work__item h3 {
+    font-weight: 200;
+    /* color: var(--color-light); */
+}
+
+
+/* ================= MEDIQ QUERIES (MEDIUM DEVICES) =======================*/
+@media screen and (max-width: 1024px) {
+
+    /* .work__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    } */
+}
+
+/* ================= MEDIQ QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+
+    .work__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .right {
+        width: 100%;
+    }
+}
