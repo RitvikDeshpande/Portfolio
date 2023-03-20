@@ -19,7 +19,7 @@ const data = [
     },
     {
         id: 3,
-        company_location: "May 2023 - July 2023",
+        company_location: "May 2023 - Aug 2023",
         title_time: "Embedded Systems Engineer @ Horiba ",
         description: 'horiba description here',
         section_id: 'horiba'
